@@ -14,6 +14,8 @@
 		8634B2D1281C2E4D007845E4 /* practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634B2D0281C2E4D007845E4 /* practiceTests.swift */; };
 		8634B2DB281C2E4D007845E4 /* practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634B2DA281C2E4D007845E4 /* practiceUITests.swift */; };
 		8634B2DD281C2E4D007845E4 /* practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634B2DC281C2E4D007845E4 /* practiceUITestsLaunchTests.swift */; };
+		8634B2EB282A9018007845E4 /* UIImageView+colorpicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634B2EA282A9018007845E4 /* UIImageView+colorpicker.swift */; };
+		8634B2F0282A9A1A007845E4 /* ColorPickerControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634B2EF282A9A1A007845E4 /* ColorPickerControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8634B2D6281C2E4D007845E4 /* practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8634B2DA281C2E4D007845E4 /* practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceUITests.swift; sourceTree = "<group>"; };
 		8634B2DC281C2E4D007845E4 /* practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8634B2EA282A9018007845E4 /* UIImageView+colorpicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+colorpicker.swift"; sourceTree = "<group>"; };
+		8634B2EF282A9A1A007845E4 /* ColorPickerControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		8634B2BE281C2E46007845E4 /* practice */ = {
 			isa = PBXGroup;
 			children = (
+				8634B2EC282A9987007845E4 /* ViewController */,
+				8634B2E9282A8FE7007845E4 /* Extensions */,
 				8634B2BF281C2E46007845E4 /* practiceApp.swift */,
 				8634B2C1281C2E46007845E4 /* ContentView.swift */,
 				8634B2C3281C2E4D007845E4 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				8634B2DC281C2E4D007845E4 /* practiceUITestsLaunchTests.swift */,
 			);
 			path = practiceUITests;
+			sourceTree = "<group>";
+		};
+		8634B2E9282A8FE7007845E4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8634B2EA282A9018007845E4 /* UIImageView+colorpicker.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8634B2EC282A9987007845E4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8634B2EF282A9A1A007845E4 /* ColorPickerControllerViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8634B2F0282A9A1A007845E4 /* ColorPickerControllerViewController.swift in Sources */,
 				8634B2C2281C2E46007845E4 /* ContentView.swift in Sources */,
+				8634B2EB282A9018007845E4 /* UIImageView+colorpicker.swift in Sources */,
 				8634B2C0281C2E46007845E4 /* practiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
